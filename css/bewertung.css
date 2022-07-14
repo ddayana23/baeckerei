@@ -1,0 +1,46 @@
+blockquote {
+  margin: 0;
+  margin-top: 50px;
+  background: #f69a73;
+  padding: 40px;
+  color: #3f484d;
+  position: relative;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+blockquote:before,
+blockquote:after {
+  font-size: 45px;
+  color: #333333;
+  position: absolute;
+  height: 2px; 
+  left: 40px;
+  right: 40px;
+  line-height: 0.5;
+  background: linear-gradient(
+      to right,
+      #333333 45%,
+      transparent 45%,
+      transparent
+    ),
+    linear-gradient(to right, transparent, transparent 55%, #333333 55%);
+  font-family: serif;
+}
+blockquote:before {
+  content: "\201C";
+  top: 30px;
+}
+blockquote:after {
+  content: "\201D";
+  bottom: 30px;
+}
+blockquote p {
+  font-size: 20px;
+}
+blockquote .btn-blockquote {
+  margin-bottom: 1em;
+  color: aliceblue;
+}
+blockquote cite {
+  font-style: normal;
+}

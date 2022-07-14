@@ -1,0 +1,7 @@
+In diesem Ordner befindet sich die einzubettende Schriftart in verschiedenen Dateiformaten. Es ist:
+
+'roboto_condensedregular'
+
+Eigene Schriftarten kann man @font-face einbetten.
+
+Testen Sie die Funktionalität im Browser über den Server.(Xamp)
